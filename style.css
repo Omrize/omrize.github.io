@@ -9,7 +9,7 @@
 
 /*                                      HEADER                                      */
 .main-header{
-    background-image: url(../img/header.jpg);
+    background-image: url(header.jpg);
     background-size: cover;
 }
 .main-header .nav{
@@ -125,7 +125,7 @@
 
 .testimonail{
     margin-top: 85px;
-    background-image: url(../img/tm_bg.jpg);
+    background-image: url(tm_bg.jpg);
     padding-top: 135px;
     overflow: hidden;
     padding-bottom: 40px;
