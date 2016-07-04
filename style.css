@@ -9,7 +9,7 @@
 
 /*                                      HEADER                                      */
 .main-header{
-    background-image: url(header.jpg);
+    background-image: url(../header.jpg);
     background-size: cover;
 }
 .main-header .nav{
