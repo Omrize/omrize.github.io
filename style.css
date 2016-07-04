@@ -9,7 +9,7 @@
 
 /*                                      HEADER                                      */
 .main-header{
-    background-image: url(../header.jpg);
+    background-image: url(omrize.github.io/header.jpg);
     background-size: cover;
 }
 .main-header .nav{
@@ -125,7 +125,7 @@
 
 .testimonail{
     margin-top: 85px;
-    background-image: url(tm_bg.jpg);
+    background-image: url(omrize.github.io/tm_bg.jpg);
     padding-top: 135px;
     overflow: hidden;
     padding-bottom: 40px;
