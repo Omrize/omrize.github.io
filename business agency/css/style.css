@@ -1,0 +1,273 @@
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+/* HEADER */
+header{
+    background-color: #f0f2f4;
+    border-bottom: 1px solid #e2e2e2;
+}
+header ul{
+    list-style: none;
+    text-align: right;
+    margin: 0;
+}
+header ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+header ul li:first-of-type{
+    border-right: 1px solid #e2e2e2;
+}
+header ul li:last-of-type{
+    border-right: 0;
+    padding: 10px 0;
+}
+header .fa-facebook{
+    color: #1287bf;
+}
+/* END OF HEADER */
+
+/* START OF MENU */
+
+nav{
+    overflow: hidden;
+    padding: 40px 0;
+    position: relative;
+}
+nav .logo{
+    float: left;
+}
+nav ul{
+    list-style: none;
+    float: right;
+}
+nav ul li{
+    display: inline;
+    margin-left: 30px
+}
+nav ul li a{
+    text-decoration: none;
+    color:#424242;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color:#de2b24;
+}
+nav ul li button{
+    color: #fff;
+    background-color: #de2b24;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+/*END OF MENU */
+
+/*START OF BANNER */
+.banner{
+    background-image: url(../img/banner.png);
+    background-size: 1410px;
+    background-position: -21px;
+    text-align: center;
+    padding: 175px 0;
+    margin-bottom: 135px;
+}
+.banner h1{
+    color:#fff;
+    font-size: 48px;
+    margin: 0;
+}
+.banner p{
+    color:#fff;
+    font-size: 20px;
+    margin-top: 0;
+}
+.banner button{
+    color: #fff;
+    background-color: #f8cd53;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+/*END OF BANNER */
+/*START OF ABOUT US */
+.about{
+    overflow: hidden;
+    margin-bottom: 135px;
+}
+.about .item{
+    text-align: center;
+    float: left;
+    max-width: 341px;
+}
+/*END OF ABOUT US */
+
+.approch{
+    overflow: hidden;
+    background-color: #f3f3f3;
+    padding: 100px 0;
+}
+.approch .item{
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0.1px #D2D2D2;
+    position: relative;
+}
+.approch img{
+    float: left;
+    width: 341px;
+}
+.approch .text:before{
+    content: "";
+    background-color: #de2b24;
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 65px;
+    left: 285px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.approch .text{
+    float: left;
+    width:523px;
+    padding: 50px 80px;
+}
+.approch h4{
+    color:#424242;
+    font-size:18px;
+}
+.approch p{
+    color:#424242;
+    font-size:13.5px;
+}
+/*START OUR WORK */
+.our-work{
+    background-color: #de2b24;
+    padding: 125px 0;
+    overflow: hidden;
+}
+.our-work h3{
+    color:#fff;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+.our-work p{
+    color:#fff;
+    margin-top: 3px;
+    text-align: center;
+}
+.our-work hr{
+    width: 5%;
+    border: 3px solid #fff;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.our-work img{
+    float: left;
+    margin: 0;
+    width: 256px;
+    height: 252px;
+}
+/*END OUR WORK */
+
+/* START OF DETAILS */
+.details{
+    background-color: #1287bf;
+    padding: 100px 0;
+    text-align: center;
+}
+.details h4{
+    color:#fff;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 600;
+}
+.details p{
+    color:#fff;
+    margin-top: 3px;
+}
+.details .fa-chevron-right{
+    color:#fff;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    padding: 20px 25px;
+    font-size: 30px;
+}
+.details .fa-chevron-right:before{
+    content: "\f063";
+}
+.details .input{
+    overflow: hidden;
+    margin: 0 380px;
+    margin-top: 50px;
+}
+.details .input .before{
+    background-color: #fff;
+    height: 34px;
+    width: 5px;
+    float: left;
+    margin-right: 5px;
+}
+.details .input input{
+    border: 3px solid #ededed;
+    background: none;
+    padding: 5px 0;
+    float: left;
+    transition: all 1s ease;
+    width: 0;
+}
+.details .input input:focus{
+    padding: 5px 20px;
+    width: 100px;
+}
+
+/* END OF DETAILS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
